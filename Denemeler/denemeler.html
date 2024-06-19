@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGA YÖS - Denemeler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/kitaplar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">OMEGA YÖS</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="../index.html">الصفحة الرئيسية</a>
+                            <a class="nav-link active" href="kitaplar.html">الكتب</a>
+                            <a class="nav-link" href="#">أسئلة الدورات</a>
+                            <a class="nav-link" href="#">الإمتحانات التجريبية</a>
+                            <a class="nav-link" href="../Bolumler/bolumler.html">معلومات حول الأفرع</a>
+                            <a class="nav-link" href="#">المفاضلات</a>
+                            <a class="nav-link" href="#">الجامعات الخاصة</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 id="kitaplar">Denemeler</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Deneme ara...">
+                <button onclick="searchBook()">Ara</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3 id="omega">Omega Denemeleri</h3>
+            <div class="card-container kitaplar" dir="rtl">
+                <div class="card">
+                    <a>
+                        <img src="fotograflar/trYos.jpg" alt="Deneme 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>OMEGA TR-YÖS Denemesi</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a href="Omega/OMEGA TR-YÖS D1.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a>
+                        <img src="fotograflar/sekiller.jpg" alt="Deneme 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>M.HOCA&OMEGA Şekiller Denemesi</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a href="Omega/M.HOCA&OMEGA Şekiller Denemesi.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a>
+                        <img src="fotograflar/iq1.jpg" alt="Deneme 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>M.HOCA&OMEGA İQ Denemesi 1</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a href="Omega/M.HOCA&OMEGA İQ Denemesi 1.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a>
+                        <img src="fotograflar/iq2.jpg" alt="Deneme 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>M.HOCA&OMEGA IQ Denemesi 2</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a href="Omega/M.HOCA&OMEGA IQ Denemesi 2.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container">
+            <h3 id="galata">Galata Denemeleri</h3>
+            <div class="card-container kitaplar" dir="rtl">
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 1</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 2 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 2</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 150</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 1</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 2 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 2</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 150</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 1 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 1</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 200</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Kitaplar/Galata.pdf" target="_blank">
+                        <img src="fotograflar/startPhoto.jpg" alt="Kitap 2 Kapak">
+                    </a>
+                    <div class="card-body">
+                        <h4>Kitap 2</h4>
+                        <p><strong>Sayfa Sayısı:</strong> 150</p>
+                        <a target="_blank" href="Kitaplar/Galata.pdf" class="btn btn-primary">تنزيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h2><a href="index.html">OMEGA YÖS</a></h2>
+                <div>
+                    <a class="facebook" target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="instagram" target="_blank" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a class="github" target="_blank" href="#"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+            <p>&copy; All rights reserved to OMEGA YÖS</p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    function searchBook() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const galataSection = document.getElementById('galata');
+        const omegaSection = document.getElementById('omega');
+
+        if (searchInput.includes('galata')) {
+            galataSection.scrollIntoView({ behavior: 'smooth' });
+        } else if (searchInput.includes('omega')) {
+            omegaSection.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            alert('Kitap bulunamadı');
+        }
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</html>

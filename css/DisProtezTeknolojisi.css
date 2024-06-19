@@ -1,0 +1,202 @@
+:root {
+    --ana-renk: #AC58F5;
+    --ikin-el: #0F172A;
+    --ucuncu: #222C42;
+    --dortuncu: #F8FBFE;
+    --gray: #666;
+}
+
+* {
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+header {
+    height: 62px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--ikin-el) !important;
+    margin-bottom: 20px;
+}
+
+header .container .navbar {
+    background-color: var(--ikin-el) !important;
+    z-index: 10;
+}
+
+header .container .navbar .container-fluid > a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dortuncu);
+    display: flex;
+}
+
+header .container .navbar .container-fluid button span {
+    color: var(--dortuncu);
+}
+
+header .container .navbar .container-fluid .collapse {
+    flex-grow: 0;
+    z-index: 10;
+}
+
+header .container .navbar .container-fluid .collapse div a {
+    color: var(--dortuncu);
+}
+
+header .container .navbar .container-fluid .collapse div a.active {
+    color: var(--ana-renk);
+}
+
+header .container .navbar .container-fluid .collapse div a:hover {
+    color: var(--ana-renk);
+}
+
+footer {
+    background-color: var(--ikin-el);
+}
+
+footer .container > div {
+    margin-top: 25px;
+}
+
+footer .container div h2 {
+    padding-top: 15px;
+}
+
+footer .container div h2 a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dortuncu);
+}
+
+footer .container div div {
+    margin: 25px 0;
+}
+
+footer .container div div a {
+    font-size: 28px;
+    color: var(--ana-renk);
+}
+
+footer .container div div a:not(:last-child) {
+    margin-right: 35px;
+}
+
+footer .container div div a.facebook:hover {
+    color: #1877f2;
+}
+
+footer .container div div a.instagram:hover {
+    color: #f77737;
+}
+
+footer .container div div a.github:hover {
+    color: #333;
+}
+
+footer .container p {
+    color: var(--dortuncu);
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.first {
+    height: calc(100vh - 64px);
+}
+
+.first .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .container .start {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .first .container {
+        flex-direction: column;
+    }
+
+    .first .container .start {
+        text-align: center;
+    }
+}
+
+.first .container .start h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--ikin-el);
+}
+
+.first .container .start p {
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.first .container .start img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.option a {
+    color: var(--dortuncu);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.option {
+    background-color: var(--ucuncu);
+    border: 2px solid var(--ucuncu);
+    border-radius: 10px;
+    color: var(--dortuncu);
+    text-align: center;
+    padding: 15px 10px;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+.option:hover {
+    background-color: var(--ana-renk);
+    border-color: #0F172A; /* Sınır rengini değiştir */
+}
